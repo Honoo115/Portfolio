@@ -8,7 +8,14 @@ body {
   text-align: center;
   line-height: 1.5;
 }
-
+main {
+  margin-top: 100px;
+}
+@media only screen and (min-width: 600px) {
+  main {
+    margin-top: 0;
+  }
+}
 nav,
 footer {
   padding: 1% 0;
@@ -49,14 +56,17 @@ section {
   background-color: #bbb;
 }
 #appOne {
-  display: inline-block;
+  display: block;
   max-width: 1000px;
   padding: 100px;
+  margin: 0 auto;
 }
 #oneImg {
-  display: inline;
+  display: block;
   max-width: 1000px;
   padding: 100px;
+  border-top: solid black;
+  margin: 0 auto;
 }
 @media only screen and (max-width: 600px) {
   #appOne {
@@ -69,7 +79,12 @@ section {
   background-color: lightblue;
   border: solid black;
 }
-
+#outlets {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 80px;
+}
 .logos {
   padding: 20px;
   display: flex;
