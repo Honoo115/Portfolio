@@ -19,7 +19,8 @@ main {
 nav,
 footer {
   padding: 1% 0;
-  background-color: #aaa;
+  background-color: lightblue;
+  border: solid black;
 }
 
 nav {
@@ -59,13 +60,17 @@ section {
   display: block;
   max-width: 1000px;
   padding: 100px;
+  padding-bottom: 10px;
   margin: 0 auto;
+  background-color: lightblue;
+  border: solid black;
 }
 #oneImg {
   display: block;
   max-width: 1000px;
   padding: 100px;
-  border-top: solid black;
+  border: solid black;
+  background-color: lightblue;
   margin: 0 auto;
 }
 @media only screen and (max-width: 600px) {
@@ -92,4 +97,37 @@ section {
 }
 ul {
   margin: 0;
+}
+.langs {
+  font-size: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+#name {
+  flex: 2;
+  text-align: left;
+  margin-left: 40px;
+}
+#bars {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  #bars {
+    display: inline-block;
+  }
+  #menu {
+    display: none;
+  }
+  #outlets {
+    padding-right: 15px;
+  }
+}
+#image {
+  display: flex;
+  justify-content: center;
+  max-width: 1000px;
+  max-height: 1000px;
+  width: auto;
+  height: auto;
+  align-items: center;
 }
