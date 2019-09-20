@@ -72,6 +72,7 @@ section {
   border: solid black;
   background-color: lightblue;
   margin: 0 auto;
+  position: relative;
 }
 @media only screen and (max-width: 600px) {
   #appOne {
@@ -127,7 +128,7 @@ ul {
   justify-content: center;
   max-width: 1000px;
   max-height: 1000px;
-  width: auto;
+  width: 100%;
   height: auto;
   align-items: center;
 }
