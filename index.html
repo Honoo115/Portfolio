@@ -1,25 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Greybox Phase</title>
+    <title>Abicht Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    <script
+      src="https://kit.fontawesome.com/040e1233d7.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" type="text/css" href="main.css" />
   </head>
   <body>
-    <nav role="outlets" id="outlets">
-      <div class="logos">
-        <i class="fa fa-facebook-square" style="font-size:40px;"> </i>
+    <nav id="outlets">
+      <div id="name">
+        <h1>Bryan Abicht</h1>
       </div>
-      <div class="logos">
-        <i class="fa fa-youtube" style="font-size:40px;"> </i>
+      <div id="bars">
+        <i class="fas fa-bars" style="font-size:40px;"></i>
+      </div>
+      <div id="menu">
+        <div class="logos">
+          <a href="https://www.facebook.com/profile.php?id=100014601870252"
+            ><i class="fab fa-facebook-square" style="font-size:40px;"> </i
+          ></a>
+        </div>
+        <div class="logos">
+          <a
+            href="https://www.youtube.com/channel/UCKN5vY3EZozALEBD2PcKCIg?view_as=subscriber"
+            ><i class="fab fa-youtube" style="font-size:40px;"> </i
+          ></a>
+        </div>
       </div>
     </nav>
-    <main role="main">
+    <main id="main">
       <header id="bio">
         <h1>A bit of me</h1>
         <h3>
@@ -55,15 +67,33 @@
           together to form a quiz complete with color and text feedback, a
           flexible design so that it can be viewed on multiple screen sizes, a
           question + score keeper for progress, and a button to start the quiz
-          over from the beginning. The following languages were used inside of
-          Visual Studio Code.
+          over from the beginning.
         </p>
+        <p>The following languages were used inside of Visual Studio Code.</p>
+        <div class="langs">
+          <i class="fab fa-html5"></i>
+
+          <i class="fab fa-css3-alt"></i>
+
+          <i class="fab fa-js-square"></i>
+        </div>
       </section>
 
       <section id="oneImg">
-        Images for Project.
+        <input type="image" id="image" src="images/quizfeed.png" />
       </section>
     </main>
-    <footer role="content-info">Footer</footer>
+    <footer role="content-info">
+      <button id="myBtn" title="Go to top">
+        Back to Top
+      </button>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
   </body>
 </html>
