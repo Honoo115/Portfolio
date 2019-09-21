@@ -67,12 +67,10 @@ section {
 }
 #oneImg {
   display: block;
-  max-width: 1000px;
-  padding: 100px;
-  border: solid black;
-  background-color: lightblue;
   margin: 0 auto;
   position: relative;
+  background-color: lightblue;
+  border: solid black;
 }
 @media only screen and (max-width: 600px) {
   #appOne {
@@ -128,7 +126,6 @@ ul {
   justify-content: center;
   width: 100%;
   height: auto;
-  align-items: center;
 }
 @media screen and (max-width: 600px) {
   #image {
