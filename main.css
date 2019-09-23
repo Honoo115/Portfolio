@@ -110,12 +110,15 @@ ul {
 #bars {
   display: none;
 }
+#menu {
+  font-size: 60px;
+}
 @media screen and (max-width: 600px) {
   #bars {
     display: inline-block;
   }
   #menu {
-    display: none;
+    font-size: 40px;
   }
   #outlets {
     padding-right: 15px;
@@ -134,4 +137,15 @@ ul {
 #myBtn {
   background-color: lightblue;
   font-size: 20px;
+}
+.langLogos div {
+  font-size: 22px;
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+}
+.email {
+  margin-left: 35px;
+  font-weight: bold;
 }
