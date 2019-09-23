@@ -1,12 +1,27 @@
 * {
   box-sizing: border-box;
+  font-family: "Share Tech Mono", monospace;
 }
-
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
 body {
   /* font-family: "OCR A Std", monospace; */
   font-size: 20px;
   text-align: center;
   line-height: 1.5;
+  background-color: #00134d;
+}
+#bodyWrapper {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+
+  z-index: -5;
+  background: url(images/background.jpg);
+  opacity: 0.7;
 }
 main {
   margin-top: 100px;
@@ -18,8 +33,7 @@ main {
 }
 nav,
 footer {
-  padding: 1% 0;
-  background-color: lightblue;
+  background-color: #00ace6;
   border: solid black;
 }
 
@@ -29,9 +43,12 @@ nav {
   left: 0;
   right: 0;
   z-index: 10;
-  background-color: lightblue;
+  color: black;
+  background-color: #00ace6;
   border: solid black;
   max-height: 100px;
+  border-radius: 0 0 10px 10px;
+  border-top: 0;
 }
 
 header {
@@ -64,13 +81,17 @@ section {
   margin: 0 auto;
   background-color: lightblue;
   border: solid black;
+  border-top: 0;
 }
 #oneImg {
   display: block;
   margin: 0 auto;
   position: relative;
-  background-color: lightblue;
+  color: lightblue;
+  background-color: #006699;
   border: solid black;
+  border-radius: 10px 10px 0 0;
+  border-bottom: 0;
 }
 @media only screen and (max-width: 600px) {
   #appOne {
@@ -80,8 +101,10 @@ section {
   }
 }
 #bio {
-  background-color: lightblue;
+  color: lightblue;
+  background-color: #006699;
   border: solid black;
+  border-radius: 0 0 10px 10px;
 }
 #outlets {
   display: flex;
@@ -130,13 +153,12 @@ ul {
   width: 100%;
   height: auto;
 }
-@media screen and (max-width: 600px) {
-  #image {
-  }
-}
 #myBtn {
-  background-color: lightblue;
+  background-color: #00ace6;
   font-size: 20px;
+  margin-right: 15px;
+  margin-top: 10px;
+  border: 1px solid black;
 }
 .langLogos div {
   font-size: 22px;
@@ -144,8 +166,27 @@ ul {
 .contact {
   display: flex;
   justify-content: space-between;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
 }
 .email {
-  margin-left: 35px;
+  font-size: 15px;
+  margin-left: 15px;
   font-weight: bold;
+}
+.pageLinks {
+  font-size: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  color: black;
+}
+.linkStyle {
+  color: black;
+  text-decoration: none;
+}
+.linkStyle:hover {
+  color: snow;
+}
+#coltitle {
+  color: lightblue;
 }
