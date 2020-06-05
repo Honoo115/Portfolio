@@ -83,7 +83,7 @@ section {
   border: solid black;
   border-top: 0;
 }
-#oneImg {
+.oneImg {
   display: block;
   margin: 0 auto;
   position: relative;
@@ -147,7 +147,7 @@ ul {
     padding-right: 15px;
   }
 }
-#image {
+.image {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -187,7 +187,7 @@ ul {
 .linkStyle:hover {
   color: snow;
 }
-#coltitle {
+.coltitle {
   color: lightblue;
 }
 .imgBorder{
